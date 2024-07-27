@@ -1,4 +1,15 @@
+import { UserButton } from "@clerk/nextjs";
+import { NewFormButton } from "./_components/new-form";
+import { FormList } from "./_components/form-list";
+
 const Page = () => {
-  return <div className=" flex-1 h-[calc(100%-85px)] p-6">Create</div>;
+  return (
+    <div className="flex">
+      <div className="flex flex-col md:flex-row align-top w-full p-6 space-y-6 md:space-y-0 md:space-x-6">
+        <FormList />
+      </div>
+      <div className="flex "></div>
+    </div>
+  );
 };
 export default Page;

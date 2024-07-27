@@ -24,7 +24,6 @@ export const SideBar = () => {
           </span>
         </div>
       </Link>
-      <UserButton />
 
       <div className="flex flex-col space-y-4">
         <Button
@@ -73,6 +72,7 @@ export const SideBar = () => {
           </Link>
         </Button>
       </div>
+      <UserButton />
     </div>
   );
 };
