@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import Header from "./components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +16,7 @@ export default function RootLayout({ children }) {
         <body className={inter.className}>
           <main className="container mx-auto">
             <div className="flex items-start justify-center min-h-screen">
-              <div >
-              {children}
-
-              </div>
+              <div>{children}</div>
             </div>
           </main>
         </body>

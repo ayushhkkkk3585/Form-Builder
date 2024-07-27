@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Header from "./(home)/_components/Header";
+import { SignInButton, SignUp } from "@clerk/nextjs";
+import Header from "./_components/Header";
 
-export default function Home() {
+export const Home = () => {
   return (
     <div>
       <Header />
@@ -17,4 +17,4 @@ export default function Home() {
       </p>
     </div>
   );
-}
+};
