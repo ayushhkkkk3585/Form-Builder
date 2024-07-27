@@ -14,11 +14,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
-          <main className="container mx-auto">
-            <div className="flex items-start justify-center min-h-screen">
-              <div>{children}</div>
-            </div>
-          </main>
+          <div>{children}</div>
         </body>
       </html>
     </ClerkProvider>
