@@ -38,7 +38,7 @@ const Header = () => {
             )
           }
           <div className="ml-auto">
-            <UserButton afterSignOutUrl="/sign-in"/>
+            <UserButton afterSignOutUrl="/"/>
 
           </div>
         </div>

@@ -1,8 +1,11 @@
 import Image from "next/image";
+import Header from "./components/Header";
+
 
 export default function Home() {
   return (
     <div>
+      <Header/>
       <h1 className="text-2xl mb-5 font-bold">Home </h1>
       <p className="mb-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est delectus laboriosam blanditiis ex cumque quibusdam quasi perspiciatis earum animi a, optio quas repellendus rem, nihil omnis, obcaecati magni beatae excepturi!
